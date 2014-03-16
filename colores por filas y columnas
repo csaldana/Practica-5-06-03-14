@@ -1,0 +1,35 @@
+<DOCTYPE! html>
+<html>
+<body>
+
+<?php
+$filas = 10;
+$columnas = 10;
+?>
+<?php
+//$x=1;
+echo "<table border='1'>";
+for($i=1; $i<11; $i++){
+ if($c==1){ 
+ $color='#CCEEFF'; $c=2;
+ } else { 
+ $color='#FFFCFD'; $c=1;
+ }
+echo"<tr bgcolor= $color>";
+
+
+for($a=1; $a<11; $a++){
+echo"<td>".(($i*10)+$a - 10)." </td>";
+//$x++;
+}
+echo "</tr>";
+
+}
+
+echo "</table>";
+?>
+
+</table>
+
+</body>
+</html>
